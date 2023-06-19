@@ -7,10 +7,10 @@
 }
 
 body {
-    margin: 0 auto;
+    argin: 0 auto;
     width: 100vw;
     height: 100vh;
-    padding: 0 200px;
+    pdding: 0 200px;
     background-color: black;
 }
 
@@ -26,14 +26,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    width: 200px;
+    width: 500px;
     height: 100vh;
     flex-shrink: 0;
     flex-grow: 1;
 }
 
 .form {
-    width: calc(75vw-200px);
+    width: calc(75vw-500px);
     height: 100vh;
     
     background-color: #f8f5f5;
@@ -76,3 +76,8 @@ input {
 .main > *:not(:last-child) {
     margin-bottom: 20px;
   }
+
+label {
+    font-weight: bold;
+    color: #575656
+}
