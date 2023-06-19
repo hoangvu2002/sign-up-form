@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -69,7 +70,7 @@ input {
 }
 
 .control-row div:first-child {
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .main > *:not(:last-child) {
