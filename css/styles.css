@@ -34,8 +34,8 @@ body {
 .form {
     width: calc(75vw-200px);
     height: 100vh;
-    pdding: 100px;
-    background-color: white;
+    
+    background-color: #f8f5f5;
     flex-grow: 1;
 }
 
@@ -64,4 +64,14 @@ input {
 
 .main {
     padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 4px #b3b0b0
 }
+
+.control-row div:first-child {
+    margin-right: 20px;
+}
+
+.main > *:not(:last-child) {
+    margin-bottom: 20px;
+  }
