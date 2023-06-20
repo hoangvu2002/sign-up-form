@@ -7,10 +7,10 @@
 }
 
 body {
-    argin: 0 auto;
+    margin: 0 auto;
     width: 100vw;
     height: 100vh;
-    pdding: 0 200px;
+    padding: 0 200px;
     background-color: black;
 }
 
@@ -81,3 +81,24 @@ label {
     font-weight: bold;
     color: #575656
 }
+
+.submit {
+    padding: 20px 20px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #596D48;
+    color: #fcfcfc;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 100ms;
+}
+
+button:hover {
+    transform: scale(1.2);
+
+}
+  
