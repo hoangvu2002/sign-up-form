@@ -60,7 +60,9 @@ body {
 }
 
 input {
-    border: 1px solid gray;
+    appearance: none;
+    border: 1px solid #E5E7EB;
+    padding: 5px 10px;
 }
 
 .main {
@@ -95,6 +97,7 @@ button {
     font-weight: bold;
     border-radius: 10px;
     transition: 100ms;
+    margin-bottom: 20px;
 }
 
 button:hover {
@@ -102,3 +105,18 @@ button:hover {
 
 }
   
+input:focus {
+    outline: none;
+    border: 1px solid #2382b0;
+    box-shadow: 2px 2px 4px #2382b0;
+}
+
+input:invalid {
+    box-shadow: 2px 2px 4px red;
+}
+
+.log-in {
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
+}

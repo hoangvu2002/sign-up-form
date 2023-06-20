@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up form</title>
->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        @font-face {
+    font-family: "Norse Bold";
+    src: url("Norse-Bold.otf") format("opentype");
+  }
+    </style>
 </head>
 <body>
     <div class="sign-up-form">
@@ -15,44 +22,60 @@
                 <h2 class="description">This is not a real online service! You know you need something<br> like this in your life to help you realize your deepest dreams.<br> Sign up <em>now</em> to get started.</h2>
                 <h2>You <em>know</em> you want to.</h2>
             </div>
-            <div class="main">
-                <h2>Let's do this!</h1>
-                <div class="control-row">
-                    <div class="control">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name" required>
+            <form action="" method="get">
+                <div class="main">
+                    <h2>Let's do this!</h1>
+                    <div class="control-row">
+                        <div class="control">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="control">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
                     </div>
-                    <div class="control">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="last-name" required>
+                    <div class="control-row">
+                        <div class="control">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="control">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" maxlength="9">
+                        </div>
+                    </div>
+                    <div class="control-row">
+                        <div class="control">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="control">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
                     </div>
                 </div>
-                <div class="control-row">
-                    <div class="control">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="control">
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone" maxlength="9">
-                    </div>
+                <div class="submit">
+                    <button>Create account</button>
                 </div>
-                <div class="control-row">
-                    <div class="control">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-                    <div class="control">
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required>
-                    </div>
-                </div>
-            </div>
-            <div class="submit">
-                <button>Create account</button>
-            </div>
+            </form>
+            
         </div>
     </div>
+</body>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="text">Name</label>
+    <input type="text" id="text" name="text" required>
+    <button>submit</button>
 </body>
 </html> -->
 
@@ -65,8 +88,6 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="text">Name</label>
-    <input type="text" id="text" name="text" required>
-    <button>submit</button>
+    <a>Log in</a>
 </body>
 </html>

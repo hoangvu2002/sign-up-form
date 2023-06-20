@@ -22,42 +22,46 @@
                 <h2 class="description">This is not a real online service! You know you need something<br> like this in your life to help you realize your deepest dreams.<br> Sign up <em>now</em> to get started.</h2>
                 <h2>You <em>know</em> you want to.</h2>
             </div>
-            <div class="main">
-                <h2>Let's do this!</h1>
-                <div class="control-row">
-                    <div class="control">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name" required>
+            <form action="" method="get">
+                <div class="main">
+                    <h2>Let's do this!</h1>
+                    <div class="control-row">
+                        <div class="control">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Adam" required>
+                        </div>
+                        <div class="control">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Smith" required>
+                        </div>
                     </div>
-                    <div class="control">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="last-name" required>
+                    <div class="control-row">
+                        <div class="control">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+                        </div>
+                        <div class="control">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" maxlength="9" placeholder="012123123">
+                        </div>
+                    </div>
+                    <div class="control-row">
+                        <div class="control">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" class="error" required>
+                        </div>
+                        <div class="control">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password" class="error" required>
+                        </div>
                     </div>
                 </div>
-                <div class="control-row">
-                    <div class="control">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="control">
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone" maxlength="9">
-                    </div>
+                <div class="submit">
+                    <button>Create account</button>
+                    <p>Already have an account? <a href="" class="log-in">Log in</a></p>
                 </div>
-                <div class="control-row">
-                    <div class="control">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-                    <div class="control">
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required>
-                    </div>
-                </div>
-            </div>
-            <div class="submit">
-                <button>Create account</button>
-            </div>
+            </form>
+            
         </div>
     </div>
 </body>
