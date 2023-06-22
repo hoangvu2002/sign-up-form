@@ -25,7 +25,7 @@ body {
     background-image: url("/image/halie-west-25xggax4bSA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
+    position: relative;
     width: 500px;
     height: 100vh;
     flex-shrink: 0;
@@ -129,4 +129,27 @@ input:invalid {
 
 .error-password {
     color: rgb(158, 11, 11);
+}
+
+.odin-line {
+    position: absolute;
+    top: 150px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-line span {
+    font-family: "Norse Bold";
+}
+
+.odin {
+
+    width: 1em;
+    height: 1em;
 }
