@@ -121,3 +121,12 @@ input:invalid {
     color: #596D48;
 }
 
+.validate-password {
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(5, 105, 5);
+}
+
+.error-password {
+    color: rgb(158, 11, 11);
+}

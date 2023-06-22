@@ -9,9 +9,10 @@ function validatePassword() {
     const passConfirm = passwordConfirm.value;
     
     if (passValue===passConfirm) {
-        validation.textContent = `Password matched`
-
+        validation.textContent = `Password matched`;
+        validation.classList.remove("error-password");
     } else {
-        validation.textContent = `Passwords do not match`
+        validation.textContent = `Passwords do not match`;
+        validation.classList.add("error-password")
     }
 }
